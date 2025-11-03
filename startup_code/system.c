@@ -89,7 +89,7 @@ void vector_table_offset_set(void)
 {   
     //to setup vector table base address
     SCB_VTOR_ADDR = ((uint32_t)&__svectors & SCB_VTOR_TBLOFF_Msk);
-    
+    // vector tabel is now set to 0x00000000
 }
 void SystemInit(void)
 {
