@@ -10,6 +10,7 @@ SECTIONS
 {
     .isr_vector :
     {
+        __svectors = .;                 /* Mark start of vector table */
         KEEP(*(.isr_vector))
     } > FLASH
 
