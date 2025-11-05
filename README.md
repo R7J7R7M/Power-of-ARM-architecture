@@ -23,24 +23,7 @@ ARM cores such as the **Cortex-M series** are tailored for deterministic real-ti
 
 ---
 
-## 🧠 Execution Flow
 
-1. **Reset event** occurs, and the CPU starts from the address stored in the **vector table**.
-2. **Stack pointer (SP)** and **program counter (PC)** are initialized.
-3. **Reset_Handler** executes, setting up memory and system configuration.
-4. The CPU transitions to execute the `main()` function.
-
-This flow ensures predictable startup behavior and deterministic execution.
-
----
-
-## 📚 Why Learn This?
-
-By understanding the ARM CPU fundamentals, you’ll be able to:
-
-* Grasp what happens **before the main()** function runs.
-* Design efficient low-level firmware with optimized startup routines.
-* Debug memory initialization and interrupt-related issues effectively.
 
 ---
 
