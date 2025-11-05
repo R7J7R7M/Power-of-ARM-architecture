@@ -1,6 +1,6 @@
-# Power-of-ARM-Architecture 🚀
+# Power-of-ARM-Architecture 
 
-## 🧠 Project Summary
+## Project Summary
 
 This project is a **bare-metal implementation** of the ARM Cortex-M startup process for the **ATSAME54P20A microcontroller**, built from scratch without using any vendor-provided frameworks like ASF or Harmony.
 
